@@ -242,8 +242,8 @@ PlayerSettings:
   AndroidTargetDevice: 0
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: C:/Users/boroda/Documents/Projects/race/user.keystore
-  AndroidKeyaliasName: 
+  AndroidKeystoreName: C:/Users/boroda/Documents/Projects/race/Race/user.keystore
+  AndroidKeyaliasName: race
   AndroidTVCompatibility: 1
   AndroidIsGame: 1
   AndroidEnableTango: 0
