@@ -1,12 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Start : MonoBehaviour {
 
-    public void StartToScene (string scene)
+    public void StartToScene(string scene)
     {
-        Application.LoadLevel(scene);
+
+
+        SceneManager.LoadScene (scene);
+
     }
     
         
