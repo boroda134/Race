@@ -180,7 +180,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   obj: {fileID: 1525829493}
-  range: 100
+  range: 2
 --- !u!1 &551110586
 GameObject:
   m_ObjectHideFlags: 0
@@ -341,7 +341,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   obj: {fileID: 1525829493}
-  range: 100
+  range: 2
 --- !u!1 &915628207
 GameObject:
   m_ObjectHideFlags: 0
