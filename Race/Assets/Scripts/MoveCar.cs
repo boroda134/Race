@@ -10,12 +10,12 @@ public class MoveCar : MonoBehaviour {
 
     private void OnMouseDown ()
     {
-       if (gameObject.name == "ClickRight" && obj.transform.position.x < 2 )
+       if (gameObject.name == "ClickRight" && obj.transform.position.x < 1.5 )
         {
             obj.transform.Translate(Vector3.right * range);
         }
 
-       if (gameObject.name == "ClickLeft" && obj.transform.position.x > -2)
+       if (gameObject.name == "ClickLeft" && obj.transform.position.x > -1.5)
         {
             obj.transform.Translate(-Vector3.right * range);
         }
