@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CreatCar2 : MonoBehaviour {
+public class CreatBlock2 : MonoBehaviour {
     public GameObject car;
     public Vector3[] positions;
     public float delayTime = 1f;
