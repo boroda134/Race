@@ -2,28 +2,27 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Destroey : MonoBehaviour {
+public class Kostyl : MonoBehaviour
+{
 
-    public float stopBlock;
+    public Vector3 positions;
 
-	
-	void Start () {
-		
-	}
-	
-	
-	void Update () {
-		
-	}
+
+    void Start()
+    {
+
+    }
+
+
+    void Update()
+    {
+
+    }
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Enemy Block")
         {
-            
-            Destroy(collision.gameObject);
-
+            collision.gameObject.transform.position = positions;
         }
-
-        
     }
 }
